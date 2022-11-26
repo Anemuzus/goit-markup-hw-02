@@ -1,0 +1,177 @@
+
+:root {
+    --brand-button-color:#4D5AE5;
+    --basic-color:#2E2F42;
+    --minor-color: #434455;
+    --hero-bg-color:#2E2F42;
+    --text-white-color:#FFFFFF;
+    --footer-text-studio:#F4F4FD;
+    --footer-text :#E7E9FC;
+    --portfolio-btn:#F4F4FD;
+
+}
+
+
+a {text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+}
+
+li{list-style-type: none;}
+
+
+
+/* -----------------------HEADER-------------------------------- */
+.labe_web{
+    color:var(--brand-button-color);
+    font-family: 'Raleway', sans-serif;}
+
+.labe_studio{
+        font-family: 'Raleway', sans-serif;
+        color:var(--basic-color);
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        
+}
+
+.nav_list{
+    color: var(--basic-color);
+    font-weight: 600;
+     font-size: 16px;
+     line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+ .color_contact{
+    color: var(--minor-color);
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+ }
+/* -------------------------------hero--------------------- */
+ .hero{background-color:var(--hero-bg-color)}
+
+
+.title-hero {
+    color:var(--text-white-color);
+    font-weight: 600;
+        font-size: 56px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.02em;
+}
+.btn_hero{
+
+            background-color: var(--brand-button-color);
+            color: var(--text-white-color);
+           border-radius: 4px;
+           width: 170px;
+            height: 51px;
+            border: currentColor;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+             letter-spacing: 0.04em;
+
+}
+
+/* -----------------------advantages---------------- */
+.advantages_name{
+    color: var(--basic-color
+);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.advantages_text{
+ color: var(--minor-color);
+font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+/* ---------------------our-job-------------- */
+.title_our_job{
+    color: var(--basic-color);
+    font-weight: 600;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+}
+
+/* ------------------team------------------ */
+.team{background-color: var(--portfolio-btn);}
+.title_team{
+color: var(--basic-color);
+font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+}
+
+.team_names{
+    color: var(--basic-color);
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+
+}
+.team_specialty{
+color: var(--minor-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+/* ----------------------FOOTER------------------ */
+
+.footer{background-color: var(--hero-bg-color);}
+.footer_web {
+    color: var(--brand-button-color);
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer_studio {
+    font-family: 'Raleway', sans-serif;
+    color: var(--footer-text-studio);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
+}
+.footer_text{ 
+    color: var(--footer-text);
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        
+    
+        letter-spacing: 0.02em;}
+
+    /* ============================PORTFOLIO================================ */
+    .btn_portfolio{ 
+        background-color: var(--portfolio-btn);
+        color: var(--brand-button-color);
+        border: 1px solid #E7E9FC;
+            border-radius: 4px;
+        font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.04em;
+    }
