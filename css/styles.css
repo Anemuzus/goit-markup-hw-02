@@ -4,10 +4,11 @@
     --basic-color:#2E2F42;
     --minor-color: #434455;
     --hero-bg-color:#2E2F42;
+    --btn-bgc-hero:#404BBF;
     --text-white-color:#FFFFFF;
     --footer-text-studio:#F4F4FD;
     --footer-text :#E7E9FC;
-    --portfolio-btn:#F4F4FD;
+    
 
 }
 
@@ -36,7 +37,7 @@ li{list-style-type: none;}
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
-        line-height: 24px;
+        line-height: 1.33;
         letter-spacing: 0.03em;
         
 }
@@ -45,17 +46,22 @@ li{list-style-type: none;}
     color: var(--basic-color);
     font-weight: 600;
      font-size: 16px;
-     line-height: 24px;
+     line-height: 1.5;
     letter-spacing: 0.02em;
+
 }
+.nav_list:hover,.nav_list:focus{color: var(--minor-color);}
+
+.nav_list_active{color: var(--brand-button-color);}
 
  .color_contact{
     color: var(--minor-color);
     font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
  }
+ .color_contact:hover,.color_contact:focus{color: var(--brand-button-color);}
 /* -------------------------------hero--------------------- */
  .hero{background-color:var(--hero-bg-color)}
 
@@ -64,9 +70,10 @@ li{list-style-type: none;}
     color:var(--text-white-color);
     font-weight: 600;
         font-size: 56px;
-        line-height: 60px;
+        line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .btn_hero{
 
@@ -78,18 +85,20 @@ li{list-style-type: none;}
             border: currentColor;
             font-weight: 600;
             font-size: 16px;
-            line-height: 19px;
+            line-height: 1.19;
              letter-spacing: 0.04em;
+             cursor: pointer;
 
 }
-
+.btn_hero:hover,.btn_hero:focus{box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
+.btn_hero:active{background-color:var(--btn-bgc-hero);}
 /* -----------------------advantages---------------- */
 .advantages_name{
     color: var(--basic-color
 );
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
@@ -97,7 +106,7 @@ li{list-style-type: none;}
  color: var(--minor-color);
 font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -106,7 +115,7 @@ font-weight: 400;
     color: var(--basic-color);
     font-weight: 600;
         font-size: 36px;
-        line-height: 40px;
+        line-height: 1.11;
         letter-spacing: 0.02em;
 }
 
@@ -116,7 +125,7 @@ font-weight: 400;
 color: var(--basic-color);
 font-weight: 600;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
 }
 
@@ -124,7 +133,7 @@ font-weight: 600;
     color: var(--basic-color);
         font-weight: 600;
         font-size: 20px;
-        line-height: 24px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
 
 }
@@ -132,7 +141,7 @@ font-weight: 600;
 color: var(--minor-color);
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -151,7 +160,7 @@ color: var(--minor-color);
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.33;
     letter-spacing: 0.03em;
 
 }
@@ -159,19 +168,21 @@ color: var(--minor-color);
     color: var(--footer-text);
     font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         
     
         letter-spacing: 0.02em;}
 
     /* ============================PORTFOLIO================================ */
     .btn_portfolio{ 
-        background-color: var(--portfolio-btn);
+        background-color: var(--footer-text-studio);
         color: var(--brand-button-color);
         border: 1px solid #E7E9FC;
             border-radius: 4px;
         font-weight: 600;
             font-size: 16px;
-            line-height: 24px;
+            line-height: 1.5;
             letter-spacing: 0.04em;
+            cursor: pointer;
     }
+    .btn_portfolio:hover,.btn_portfolio:focus{ color: var(--footer-text-studio); background-color: var(--brand-button-color);}
